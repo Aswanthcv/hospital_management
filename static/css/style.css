@@ -1,0 +1,11 @@
+li:hover{
+  background-color: grey;
+  border-bottom: 1px;
+  border-radius: 12px;
+}
+.carousel{
+  height:400px; 
+}
+img{
+  max-height: 400px;
+}
