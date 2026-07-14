@@ -3,5 +3,26 @@
 {% block title %}Doctors{% endblock %}
 
 {% block content %}
-<h1>This is Doctors page</h1>
+<h1>Our Doctors </h1>
+<hr>
+
+<div class="container text-center bg-light">
+
+  {% for d in doctors %}
+ 
+  <div class="card border rounded mx-3 my-3" style="width: 18rem; display:inline-block">
+  <img src="{{d.doc_image.url}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{d.doc_name}}</h5>
+    <p class="card-text">{{d.doc_spec}}</p>
+    <h6>{{d.dep_name}}</h6>
+  </div>
+</div>
+
+{% endfor %}
+
+</div>
+
+
+
 {% endblock %}
