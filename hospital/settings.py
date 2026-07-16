@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
+    'crispy_forms',
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +122,6 @@ STATICFILES_DIRS = [BASE_DIR, 'static']
 
 MEDIA_ROOT = BASE_DIR / 'uploads'
 MEDIA_URL = '/media/'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
