@@ -1,7 +1,69 @@
 {% extends 'base.html' %}
- 
+
 {% block title %}Contact{% endblock %}
 
 {% block content %}
-<h1>This is Contact page</h1>
+
+<div class="container my-5">
+
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Contact Us</h2>
+        <p class="text-muted">We're always here to assist you with your healthcare needs.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-5">
+
+                    <h4 class="mb-4 text-center">City Hospital</h4>
+
+                    <div class="mb-4">
+                        <h6 class="fw-bold">📍 Address</h6>
+                        <p class="text-muted mb-0">
+                            City Hospital<br>
+                            Medical College Road<br>
+                            Kozhikode, Kerala - 673008
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-4">
+                        <h6 class="fw-bold">📞 Phone</h6>
+                        <p class="text-muted mb-0">
+                            +91 98765 43210
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-4">
+                        <h6 class="fw-bold">✉ Email</h6>
+                        <p class="mb-0">
+                            <a href="mailto:contact@cityhospital.com" class="text-decoration-none">
+                                contact@cityhospital.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <h6 class="fw-bold">🕒 Working Hours</h6>
+                        <p class="text-muted mb-0">
+                            Monday – Saturday: 8:00 AM – 8:00 PM<br>
+                            Emergency Services: <span class="fw-bold text-danger">24 × 7</span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
 {% endblock %}

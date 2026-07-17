@@ -5,8 +5,9 @@
 {% block content %}
 <h1 class="text-center">Book an appoinment</h1>
   <div class="container w-25 text-center my-5 bg-light" >
-    <form action="">
-    {{form|crispy}}
+    <form action="" method="POST">
+      {% csrf_token %}
+      {{form|crispy}}
     <button type="submit" class="btn btn-primary">Submit</button>
   </form> 
   </div>

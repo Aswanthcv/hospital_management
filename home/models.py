@@ -27,5 +27,5 @@ class Booking(models.Model):
   booking_date  = models.DateField()
   booked_on = models.DateField(auto_now=True)
 
-  def __str__(self):
-    return self.p_name
+  # def __str__(self):
+  #   return self.p_name

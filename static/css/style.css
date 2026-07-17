@@ -1,3 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: 40px; /* Space above the footer */
+}
+
 li:hover{
   background-color: grey;
   border-bottom: 1px;
